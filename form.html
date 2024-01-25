@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+</head>
+<body>
+    <img src="or 1.png" height="auto" width="auto" slot="center"><p style="text-align: center;"><h2><ins>Let us all make life's of children even more 'BRIGHTER'</ins></h2></p><br>
+    <h1><legend style="text-align: center;"><ins>Registration Form</ins></legend></h1>
+    <form style=" text-align:center ;">
+    <fieldset style=" height:auto; width: auto;">
+    <section style=" text-align:center;width: auto; height: auto; border: solid 3px; color:black"><h3><mark style="color:brown;"><ins>CHILD DETAILS</ins></mark></h3> 
+    <h4><table style="text-align:center ;">
+            <tr>
+                <td><label>New born</label></td>
+                <td>:</td>
+                <td><input type ="radio" name="1" id="Yes"></td>
+                <td><label for="1">Yes</label></td>
+                <td><input type ="radio" name="1" id="No"></td>
+                <td><label for="1">No</label></td>
+            </tr>
+            <tr>
+                <td><label>Enter child name</label></td>
+                <td>:</td>
+                <td><input type="label" placeholder="enter child name"></td>
+            </tr><br>
+            <tr>
+                <td><label>Gender of the child</label></td>
+                <td>:</td>
+                <td><input type="radio" name="gender" id="Male"></td>
+                <td><label for="Male">Male</label></td> 
+                <td><input type="radio" name="gender" id="Female"></td>
+                <td><label for="Female">Female</label></td>
+            </tr> 
+            <tr>
+                <td><label>Aproximate AGE of child</label></td>
+                <td>:</td>
+                <td><input type="number" placeholder="enter aproximate age of child"></td>
+            </tr>
+            <tr>
+                <td><label>Area found</label></td>
+                <td>:</td>
+                <td><textarea placeholder="Area in which child found"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Is child handicapped?</label></td>
+                <td>:</td>
+                <td><input list="Handicapped" placeholder="select below"></td>
+                <td><datalist id="Handicapped">
+                        <option>physically Handicapped</option>
+                        <option>Mentally Handicapped</option>
+                        <option>Not Handicapped</option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Any information about child</label></td>
+                <td>:</td>
+                <td><textarea placeholder="enter any information of child"></textarea></td>
+            </tr>
+            <tr>
+                <td>Child's Photograph</td>
+                <td>:</td>
+                <td><input type="file" required></td>
+            </tr>
+        </table></h4>
+    </section><br>
+    <section style=" text-align:center; width: auto; height: auto;border: solid 3px;color: black;"><h3><mark style="color: brown;"><ins>GUARDIAN DETAILS</ins></mark></h3>
+    <h4><table style="text-align:center;">
+            <tr style="text-align:center;">
+                <td><label>Name of the Guardian</label></td>
+                <td>:</td>
+                <td><input type="label" placeholder="enter name of guardian"></td>
+            </tr>
+            <tr style="text-align: center;">
+                <td><label>Enter mobile number</label></td>
+                <td>:</td>
+                <td><input type="number" pattern="[0-9]{10}" placeholder="enter mobilr number"></td>
+            </tr>
+            <tr>
+                <td><label>Address of the Guardian</label></td>
+                <td>:</td>&nbsp;
+                <td><textarea placeholder="enter permanent address " required></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Occupation of Guardian</label></td>
+                <td>:</td>
+                <td><input type="label" placeholder="enter occupation of guardian" required></td>
+            </tr>
+            <tr>
+                <td><label>Any relation with child</label></td>
+                <td>:</td>
+                <td><input type="radio" name="1">Mother</td>
+                <td><input type="radio" name="1">Father</td><br>
+                <td><input type="radio" name="1" >Other</td>
+                <td><input type="radio" name="1" >No Relation</td>
+            </tr>
+        </table></h4>
+     </section>
+     <table style="text-align: left;">
+        <tr>
+            <td><h3><ins><mark style="color: brown;"><label>NOTE:</label></mark></ins></h3></td>
+            <td><p>The above give "GUARDIAN DETAILS" are the details of the one who is joining the child.</p></td>
+        </tr>
+        </table>
+      <h3><input type="submit" value="Register" style="text-align: center; color: blue;" ></h3>
+    </fieldset>
+</form>    
+</body>
+</html>
